@@ -1,0 +1,35 @@
+body {
+  font: 13px/20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+  color: #404040;
+  background: #0ca3d2;
+}
+
+.imgUsuario{
+	float: right;
+	width: 4.5%;
+	height: 4.5%;
+}
+
+.usuario{
+	position: absolute !important;
+    right: 0px;
+}
+
+.cerrar:hover{
+	color: red !important; 
+}
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#validateBtnw2{
+	width: 10%;
+	height: 100%;
+	margin: 0;
+}
+.navbar-inverse .navbar-nav>li>a .cerrar:hover{
+	color: red;
+}
